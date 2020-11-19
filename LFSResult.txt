@@ -1,0 +1,35 @@
+$ git lfs env
+git-lfs/2.12.1 (GitHub; windows amd64; go 1.14.10; git 85b28e06)
+git version 2.29.2.windows.2
+
+Endpoint=https://github.com/IXOFIXOF/TESTGITLFS.git/info/lfs (auth=basic)
+LocalWorkingDir=D:\GIT\GITLFS\TESTGITLFS2
+LocalGitDir=D:\GIT\GITLFS\TESTGITLFS2\.git
+LocalGitStorageDir=D:\GIT\GITLFS\TESTGITLFS2\.git
+LocalMediaDir=D:\GIT\GITLFS\TESTGITLFS2\.git\lfs\objects
+LocalReferenceDirs=
+TempDir=D:\GIT\GITLFS\TESTGITLFS2\.git\lfs\tmp
+ConcurrentTransfers=8
+TusTransfers=false
+BasicTransfersOnly=false
+SkipDownloadErrors=false
+FetchRecentAlways=false
+FetchRecentRefsDays=7
+FetchRecentCommitsDays=0
+FetchRecentRefsIncludeRemotes=true
+PruneOffsetDays=3
+PruneVerifyRemoteAlways=false
+PruneRemoteName=origin
+LfsStorageDir=D:\GIT\GITLFS\TESTGITLFS2\.git\lfs
+AccessDownload=basic
+AccessUpload=basic
+DownloadTransfers=basic,lfs-standalone-file
+UploadTransfers=basic,lfs-standalone-file
+GIT_EXEC_PATH=D:/Program files/Git/mingw64/libexec/git-core
+GIT_LFS_PATH=C:\Users\Michal\AppData\Local\Programs\Git LFS
+git config filter.lfs.process = "git-lfs filter-process"
+git config filter.lfs.smudge = "git-lfs smudge -- %f"
+git config filter.lfs.clean = "git-lfs clean -- %f"
+
+Michal@Michal-dell MINGW64 /d/GIT/GITLFS/TESTGITLFS2 (master)
+$
